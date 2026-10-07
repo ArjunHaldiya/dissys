@@ -124,6 +124,7 @@ class Queue:
     def is_empty(self):        
         return self.items.is_empty_list()
 
+print("tests")
 l = LinkedList()
 l.push_front(1); l.push_front(2); l.push_front(3)
 print(l.to_list())
